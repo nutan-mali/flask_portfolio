@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Nutan's Portfolio</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/favicon.ico') }}" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+    <style>
+        .custom-dark-bold {
+            color: #000;
+            /* Set the color to dark (black) */
+            font-weight: bold;
+            /* Make the text bold */
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link custom-dark-bold" href="{{ url_for('home') }}">Home</a></li>
+                    <li class="nav-item"><a class="nav-link custom-dark-bold" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link custom-dark-bold" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link custom-dark-bold" href="#services">My Expertise</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="masthead d-flex align-items-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <h1 class="mb-1">Nutan Mali</h1>
+            <h3 class="mb-5"><em>Portfolio of a Python Django/Flask Developer</em></h3>
+            <a class="btn btn-primary btn-xl" href="#about">More about Me</a>
+        </div>
+    </header>
+    <!-- Header-->
+    <header class="masthead d-flex align-items-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <h1 class="mb-1">Nutan Mali</h1>
+            <h3 class="mb-5"><em>Portfolio of a Python Django/Flask Developer</em></h3>
+            <a class="btn btn-primary btn-xl" href="#about">More about Me</a>
+        </div>
+    </header>
+    <!-- About-->
+    <section class="content-section bg-light" id="about">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-10">
+                    <h2>Hello, I'm Nutan Mali, a passionate and creative web developer. I specialize in building
+                        responsive and user-friendly web applications using Python Django, Flask and modern web
+                        technologies.!</h2>
+                    <p class="lead mb-5">
+                        I specialize in building responsive and user-friendly web applications using Python Flask and
+                        Django. I love learning new technologies and turning innovative ideas into reality.
+                    </p>
+                    <a class="btn btn-dark btn-xl" href="#services">My Expertise</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services-->
+    <section class="content-section bg-primary text-white text-center" id="services">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading">
+                <h3 class="text-secondary mb-0">Special about</h3>
+                <h2 class="mb-5">My Expertise</h2>
+            </div>
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="fas fa-laptop-code"></i></span>
+                    <h4><strong>Web Development</strong></h4>
+                    <p class="text-faded mb-0">I create responsive and user-friendly web applications using Python
+                        Flask.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="fas fa-cogs"></i></span>
+                    <h4><strong>API Development</strong></h4>
+                    <p class="text-faded mb-0">I build RESTful APIs to connect and interact with web applications.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="fas fa-database"></i></span>
+                    <h4><strong>Database Integration</strong></h4>
+                    <p class="text-faded mb-0">I work with databases like SQLite, MySQL, and PostgreSQL for data
+                        management.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="fas fa-code"></i></span>
+                    <h4><strong>Full-stack Development</strong></h4>
+                    <p class="text-faded mb-0">I develop both the front-end and back-end to create comprehensive web
+                        solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Callout-->
+    <section class="callout">
+        <div class="container px-4 px-lg-5 text-center">
+            <h2 class="mx-auto mb-5">About Me </h2>
+
+
+            <p><strong>Name: Nutan Mali</p></strong> 
+            <p><strong>Address: Chinchwad, Pune, 411033</p></strong>
+            <p><strong>Date of Birth: 1st Jan 1993</p></strong>
+            <p><strong>Nationality: Indian</p></strong>
+            <p><strong>Mobile Phone: +919699790862</p></strong>
+            <p><strong>Email: nutansm123@gmail.com</p></strong>
+
+            <h3>Education</h3>
+            <p><strong>2014-2016: MSc in Computer Science - North Maharashtra University of Jalgaon, Maharashtra</p>
+            <p>2010-2013: BSc in Computer Science - S.S.V.P.S College, Dhule</p></strong>
+
+            <div class = 'my-4'></div><h3 >Software Development Skills</h3>
+            <p><strong>Programming Languages: Python (Python3), JavaScript</p>
+            <p><strong>Web Development:</strong> HTML5, CSS3/SASS, JavaScript/jQuery, Bootstrap, Tailwind CSS</p>
+            <p><strong>Frameworks:</strong> React, Node.js</p>
+            <p><strong>Web Frameworks:</strong> Flask, Django</p>
+            <p><strong>Rest API Tools:</strong> Postman, FlaskSqlalchemy</p>
+            <p><strong>Miscellaneous:</strong> Linux, SQL, SQLite, PostgreSQL, Firebase (Real-Time Database), Nginx, Gunicorn, VPS, Google Cloud
+                Platform, Vercel, Heroku, Git, GitHub, DigitalOcean</p></strong>
+        </div></div>
+    </section>
+    <!-- Portfolio-->
+    <section class="content-section" id="portfolio">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+
+                <h2 class="mb-5">Recent Projects</h2>
+            </div>
+            <div class="row gx-0">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h4">Django Job Portal Website</div>
+                                <p class="mb-0">This is a Django-based job portal website. Where authentication is
+                                    perform Provided by Django and User can authorised as an Employer or Job Seeker. The
+                                    employer can Post there jobs Edit them and delete The Post. And The job Seeker is
+                                    search for job upload resume and apply for job.</p>
+
+                                <p class="mb-0">Technologies used: Django, HTML, CSS, JavaScript</p>
+
+                            </div>
+                        </div>
+                       <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-1.jpg') }}" alt="..." />
+</a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h4">Employee Information Django WebApp</div>
+                                <p class="mb-0">This project is a Employee Data Storage Form Like CRUD Here user can
+                                    Store the employess data in database and can delete edit and view them. The user's
+                                    data is stored in a database to provide personalized experiences.</p>
+                                <p class='mb-0'> Technologies used: Django, HTML, CSS, JavaScript</p>
+                            </div>
+                        </div>
+                       <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-2.jpg') }}" alt="..." />
+
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h4">Django Library Management</div>
+                                <p class="mb-0">This is a web application built with Django that allows users to manage
+                                    books, borrow, and return them in a library setting.</p>
+                                <p class='mb-0'> Technologies used: Django, Bootstrap, CSS ,HTML, SQLite.</p>
+
+                            </div>
+                        </div>
+                       <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-4.jpg') }}" alt="..." />
+
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h4">Flask Todo App with Flask-SQLAlchemy and SQLite</div>
+                                <p class="mb-0">This is a Flask-based Todo application that uses Flask-SQLAlchemy and
+                                    SQLite database for data storage. Users can create, update, and delete tasks in the
+                                    app. It provides a simple and efficient way to manage tasks and mark them as
+                                    completed.</p>
+                                <p class='mb-0'> Technologies used: Flask, Flask-SQLAlchemy, SQLite</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-1.jpg') }}" alt="..." />
+
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h4">Flask Image App</div>
+                                <p class="mb-0">This is a Flask web app that enables users to upload, view, and share
+                                    images with others. It uses Flask and SQLite to store the image data.
+                                </p>
+                                <p class='mb-0'> Technologies used: Flask, Flask-SQLAlchemy, Bootstrap, JavaScript, CSS,
+                                    HTML, SQLite</p>
+                            </div>
+                        </div>
+                       <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-2.jpg') }}" alt="..." />
+
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h4">User Dashboard with Sign-in/Sign-out</div>
+                                <p class="mb-0">This project is a user dashboard with authentication functionality that
+                                    allows users to sign in and sign out. The user's data is stored in a database to
+                                    provide personalized experiences.
+                                </p>
+                                <p class='mb-0'> Technologies used: Django, HTML, CSS, JavaScript </p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-4.jpg') }}" alt="..." />
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section><!-- Contact-->
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <h2 class="mt-0">Let's Get In Touch!</h2>
+                    <hr class="divider" />
+                    <p class="text-muted mb-5">Want to get in touch? Fill out the form below to send me a message and I
+                        will get back to you as soon as possible!</p>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                <div class="col-lg-6">
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- * * SB Forms Contact Form * *-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- This form is pre-integrated with SB Forms.-->
+                    <!-- To make this form functional, sign up at-->
+                    <!-- https://startbootstrap.com/solution/contact-forms-->
+                    <!-- to get an API token!-->
+                    <form id="contactForm" action="http://127.0.0.1:8000/contact/" data-sb-form-api-token="API_TOKEN">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" name='name' type="text"
+                                placeholder="Enter your name..." data-sb-validations="required" />
+                            <label for="name">Full name</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" name='email' type="email"
+                                placeholder="name@example.com" data-sb-validations="required,email" />
+                            <label for="email">Email address</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" name='phone' placeholder="(123) 456-7890"
+                                data-sb-validations="required" />
+                            <label for="phone">Phone number</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                            </div>
+                        </div>
+                        <!-- Message input-->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" name='msg' type="text"
+                                placeholder="Enter your message here..." style="height: 10rem"
+                                data-sb-validations="required"></textarea>
+                            <label for="message">Message</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                            </div>
+                        </div>
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none my-5" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Error sending message!</div>
+                        </div>
+                        <!-- Submit Button-->
+
+                        <a class="btn btn-primary btn-xl" href="#">Submit</a>
+                       
+                    </form>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                    <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                    <div>+91 9699790862</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/nutan-mali-47a49516b/"target="_blank">
+                            <i class="icon-social-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="https://github.com/nutan-mali" target="_blank"><i
+                                class="icon-social-github"></i></a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-0">Copyright &copy; Nutan's Portfolio 2023</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+       <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+
+    </body>
+</html>
